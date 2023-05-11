@@ -8,6 +8,15 @@
 - [Exercise 4](#exercise-4)
 - [Exercise 5](#exercise-5)
 - [Exercise 6](#exercise-6)
+- [Exercise 7](#exercise-7)
+- [Exercise 8](#exercise-8)
+
+## Module 2 Dictionaries
+
+- [Exercise 9](#exercise-9)
+- [Exercise 10](#exercise-10)
+- [Exercise 11](#exercise-11)
+- [Exercise 12](#exercise-12)
 
 ## Exercise 1
 
@@ -79,4 +88,42 @@ Given the code below, write the correct range on line 1 in order to return [-10]
 ```python
 my_range = 
 print(list(my_range))
+```
+
+## Exercise 9
+
+Given the code below, use the correct code on the line 3 in order to return the value associated with key 4. Do not use a method as a solution for this exercise!
+
+```python
+crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5:"XRP"}
+value = 
+print(value)
+```
+
+## Exercise 10
+
+Given the code below, use the correct code on the line 3 in order to return the value associated with key 4. This time, use a method as a solution for this exercise!
+
+```python
+crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5:"XRP"}
+value = 
+print(value)
+```
+
+## Exercise 11
+
+Given the code below, use the correct code on the line 3 in order to update the value associated with key 4 to "Cardano".
+
+```python
+crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5:"XRP"}
+print(crypto[4])
+```
+
+## Exercise 12
+
+Given the code below, use the correct code on the line 3 in order to add a new key-value pair to the dictionary: 6: "Monero"
+
+```python
+crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5:"XRP"}
+print(crypto[6])
 ```
